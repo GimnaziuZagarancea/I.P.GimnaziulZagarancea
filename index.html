@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <title>Școala Mea</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 40px 0;
+      text-align: center;
+    }
+    footer {
+      background-color: #e9ecef;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    .nav-link {
+      font-weight: 500;
+    }
+    .project-card {
+      transition: transform 0.2s ease;
+    }
+    .project-card:hover {
+      transform: scale(1.02);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Școala Mea</h1>
+  <p>Site-ul oficial al școlii</p>
+</header>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+  <div class="container">
+    <a class="navbar-brand" href="#">Școala</a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#despre">Despre</a></li>
+        <li class="nav-item"><a class="nav-link" href="#proiecte">Proiecte</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contacte">Contacte</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main class="container mt-5">
+
+  <section id="despre">
+    <h2>Despre școală</h2>
+    <p>Școala noastră oferă o educație de calitate și participă activ în proiecte educaționale și culturale.</p>
+  </section>
+
+  <section id="proiecte" class="mt-5">
+    <h2>Proiecte</h2>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-3">
+
+      <div class="col">
+        <div class="card h-100 shadow-sm project-card">
+          <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Proiect 1">
+          <div class="card-body">
+            <h5 class="card-title">Proiect Educațional</h5>
+            <p class="card-text">Participare la un proiect național de promovare a lecturii în școli.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 shadow-sm project-card">
+          <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Proiect 2">
+          <div class="card-body">
+            <h5 class="card-title">Eco Școala</h5>
+            <p class="card-text">Activități de protecție a mediului și colectare selectivă în cadrul școlii.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 shadow-sm project-card">
+          <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Proiect 3">
+          <div class="card-body">
+            <h5 class="card-title">Competiție STEM</h5>
+            <p class="card-text">Locul I la concursul regional de robotică și tehnologie.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contacte" class="mt-5">
+    <h2>Contacte</h2>
+    <p><strong>Adresă:</strong> Str. Exemplu, Nr. 1, Orașul Tău</p>
+    <p><strong>Email:</strong> scoala@example.com</p>
+    <p><strong>Telefon:</strong> +373 600 00 000</p>
+  </section>
+
+</main>
+
+<footer>
+  &copy; 2025 Școala Mea. Toate drepturile rezervate.
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
